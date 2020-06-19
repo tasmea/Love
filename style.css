@@ -1,0 +1,15 @@
+@keyframes pulse {
+  100% { transform: scale3d(1.2,1.2,1.2)}
+}
+
+body {
+    background: green;
+}
+
+svg {
+  max-width: 100vmin;
+  max-height: 100vmin;
+  display: block;
+  margin: 0 auto;
+  animation: pulse 1s alternate infinite
+}
